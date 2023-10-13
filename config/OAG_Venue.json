@@ -1,0 +1,29 @@
+{
+  "model_folder": "./save_models",
+  "text_path": "../Data/OAG_Venue/paper2token.csv",
+  "title_path": "../Data/OAG_Venue/title2token.csv",
+  "field_path": "../Data/OAG_Venue/field2token.csv",
+  "results_folder": "./results",
+  "author_path": "../Data/OAG_Venue/author2token.csv",
+  "affiliation_path": "../Data/OAG_Venue/affiliation2token.csv",
+  "batch_size": 32,
+  "epoch": 5,
+  "pre_path": "None",
+
+  "layer_size": 1,
+  "mode": "train",
+  "model": "bert",
+  "weight_decay": 0.01,
+  "gpu": 2,
+  "seed": 0,
+  "lr": 6e-5,
+  "bertName":"../Data/Bert-base-cased/",
+    "pre_text": "oag_gcn",
+    "has_mlm": 1,
+    "sample_num": 3,
+    "has_neighbor": 1,
+    "pred_layer": 2,
+    "pred_type": "gcnEmb",
+    "dropout": 0.1
+
+}

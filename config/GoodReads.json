@@ -1,0 +1,33 @@
+{
+  "graph_path": "../Data/GoodReads/model/bert_raw.pkl",
+
+  "text_path": "../Data/GoodReads/abstract.csv",
+  "title_path": "../Data/GoodReads/title.csv",
+  "company_path": "../Data/GoodReads/Assignees-token.csv",
+  "applicant_path": "../Data/GoodReads/Applicants-token.csv",
+
+  "patent_filter_path": "../Data/GoodReads/patent-filter.csv",
+  "company_filter_path": "../Data/GoodReads/company-filter.csv",
+  "applicant_filter_path":"../Data/GoodReads/applicant-filter.csv",
+
+  "model_folder": "./save_models",
+  "dataset": "Books",
+
+  "results_folder": "./results",
+  "batch_size": 48,
+  "epoch": 2,
+  "pre_path": "None",
+  "weight_decay": 0.01,
+  "gpu": 2,
+  "seed": 0,
+  "lr": 6e-5,
+  "bertName":"../Data/Bert-base-cased/",
+    "pre_text": "book_gcn",
+    "has_mlm": 0,
+    "sample_num": 3,
+    "has_neighbor": 1,
+    "pred_layer": 2,
+    "pred_type": "gcnEmb",
+    "dropout": 0.1
+
+}
